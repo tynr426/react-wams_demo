@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <title>数据营销中心</title>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <script type="text/javascript">
+    window["host"] = "127.0.0.1:8085";
+    window["token"] = "EgzQU1xXhLjf4Vw103QitNqNFsVnlzfcloF1Rud6XW+ZjkEU/QfZIsQvbvkdI+PE0ApdpzmUQV5CTXvRJOj93Q==";
+    window["imgDomain"] = "http://img.b2b321.366ec.net";
+
+    let setting = {
+      url: "http://" + window["host"] + "/upload?token=" + window["token"],
+      allows: "zip", //允许上传的文件格式
+      maxSize: 200 * 1024 * 1024, //允许上传的最大文件大小,字节,为0表示不限(仅对支持的浏览器生效)
+      multiple: false,
+      on: {
+          add: (task) => {
+              // post("product.product.getids", { 
+              //     names: task.name
+              // }, (res: any) => {
+              //     console.log(res)
+              // })
+              return true;
+          }
+      }
+    };
+
+    window["setting"] = setting;
+    
+
+    </script>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
