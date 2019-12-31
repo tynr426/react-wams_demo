@@ -9880,6 +9880,11 @@ warning@^4.0.2, warning@^4.0.3:
   dependencies:
     loose-envify "^1.0.0"
 
+wasm-module-webpack-plugin@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.npm.taobao.org/wasm-module-webpack-plugin/download/wasm-module-webpack-plugin-1.1.2.tgz#0cb19fd446b3b413ddd4dc788bd85441e44a0667"
+  integrity sha1-DLGf1EaztBPd1Nx4i9hUQeRKBmc=
+
 watch@~0.10.0:
   version "0.10.0"
   resolved "https://registry.npm.taobao.org/watch/download/watch-0.10.0.tgz#77798b2da0f9910d595f1ace5b0c2258521f21dc"
